@@ -1,0 +1,38 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+
+
+# --------------------
+# Virtual environment
+# --------------------
+.venv/
+venv/
+
+# --------------------
+# Environment variables (DO NOT COMMIT)
+# --------------------
+.env
+
+# --------------------
+# Gradio runtime cache
+# --------------------
+.gradio/
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# OS / Editor
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

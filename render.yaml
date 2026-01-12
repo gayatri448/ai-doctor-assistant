@@ -1,0 +1,12 @@
+# render.yaml - Configuration for Render deployment
+services:
+  - type: web
+    name: ai-doctor-assistant
+    env: python
+    plan: free               # Free tier is fine for demos
+    buildCommand: |
+      apt-get update && apt-get install -y ffmpeg
+      pip install -r requirements.txt
+    startCommand: python app.py
+    autoDeploy: true          # Automatically redeploy on GitHub push
+
