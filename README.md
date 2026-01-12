@@ -40,4 +40,4 @@ The system performs:
 
 ## Demo Screenshot
 
-![AI Doctor Assistant Output](images/output.png)
+![AI Doctor Assistant Output](Images/output.png)
