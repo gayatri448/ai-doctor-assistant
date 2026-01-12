@@ -41,3 +41,8 @@ The system performs:
 ## Demo Screenshot
 
 ![AI Doctor Assistant Output](Images/output.png)
+
+
+## Live 
+
+🔗 https://ai-doctor-assistant-awtb.onrender.com
